@@ -153,21 +153,6 @@ const projects: CollectionEntry<"projects">[] = (
             </button>
           </form>
         </section>
-        <section class="animate space-y-6">
-          <div class="flex flex-wrap items-center justify-between gap-y-2">
-            <h2 class="text-2xl font-semibold">Current projects</h2>
-            <Link href="/projects"> See all projects </Link>
-          </div>
-          <ul class="not-prose flex flex-col gap-4">
-            {
-              projects.map((project) => (
-                <li>
-                  <ArrowCard entry={project} />
-                </li>
-              ))
-            }
-          </ul>
-        </section>
       </section>
       <section class="mt-12">
         <h2 class="text-2xl font-semibold">Connect with Us</h2>
